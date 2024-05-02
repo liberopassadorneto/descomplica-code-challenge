@@ -17,8 +17,8 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repository:
 
 ```bash
-git clone https://yourrepository.git
-cd yourrepository
+git clone git@github.com:liberopassadorneto/descomplica-code-challenge.git
+cd descomplica-code-challenge
 ```
 
 Install dependencies:

@@ -1,10 +1,11 @@
-import { defineConfig } from 'vitest/config'
+import { configDefaults, defineConfig } from 'vitest/config'
 import tsConfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
   test: {
     globals: true,
-    root: './',
+    root: '.',
+    exclude: [...configDefaults.exclude, '**/data/pg/**'],
   },
   plugins: [tsConfigPaths()],
 })

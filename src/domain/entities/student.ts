@@ -1,5 +1,5 @@
-import { Entity } from './entity'
-import { UniqueEntityID } from './unique-entity-id'
+import { Entity } from '@/domain/entities/entity'
+import { UniqueEntityID } from '@/domain/entities/unique-entity-id'
 
 export interface StudentProps {
   name: string
